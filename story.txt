@@ -4,3 +4,5 @@ Jail cell - start
   -sleep (end story)
   -escape (hallway)
 hallway
+  -follow the rats to the right()
+  -left(guard)
