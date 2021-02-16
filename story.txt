@@ -4,5 +4,15 @@ Jail cell - start
   -sleep (end story)
   -escape (hallway)
 hallway
-  -follow the rats to the right()
-  -left(guard)
+  -Path 1: follow the rats to the right()-alaya
+  -Path 2: left(knocked out guard)-lucky
+  -Path 3: straight(Priscilla)
+  -Path 4: rope to climb up(Lornah)
+knocked out guard
+  -take keys()
+  -wake him up(end story)
+  
+
+Styling Rules-
+Background-color: alternate - 
+Font family: 
