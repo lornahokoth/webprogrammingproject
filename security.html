@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="stylesheet.css" rel="stylesheet" type="text/css" />
+    <style>
+      
+  	.choice{
+	  border: 2px solid #111E2F;
+  	text-align: center; 
+		position: absolute;
+    top:600px;
+		background-color: #787D80; 
+}	
+		.gdoor{
+		display: block;
+  		margin-left: auto;
+  		margin-right: auto;
+			  height: 100%;
+			  width:100%;
+		  }
+@keyframes myAnimation{
+  0%{
+    opacity: 1;
+    transform: rotateX(90deg);
+  }
+  50%{
+    opacity: 0.5;
+    transform: rotateX(0deg);
+  }
+  100%{
+    display: none;
+    opacity: 0;
+    transform: rotateX(90deg);
+  }
+}
+
+.guard{
+	display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+			  height:385px;
+			  width:75px;
+    animation-name: myAnimation;
+    animation-duration: 2000ms;
+    animation-fill-mode: forwards;
+	position: absolute;
+	top: 120px;
+      left: 344px
+}
+		}
+      }
+      
+   
+    </style>
+    </head>
+  <body>
+	  <img src="guard.png" alt="guard" class="guard" />
+	  <img src="gdoor.jpg" alt="door" class="gdoor"/>
+  
+	  
+    <div class="choice">
+      <p>You spot a knocked-out security guard <br><br>
+      <a href="gstraight.html">Take keys and leave</a>
+      <a href="hallway2.html">Ignore and leave</a>
+      <a href="caught1.html">Wake him up</a></p>
+    </div> 
+
+  </body>
+</html>

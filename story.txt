@@ -15,6 +15,35 @@ hallway
   -Path 3: straight(Priscilla)
   -Path 4: rope to climb up(Lornah)
 
+
+CSS transformations-
+-rotate -(transform: rotate(angle);)
+-scaling -ex shrinking (transform: scale(0.5);)
+-translate -moves object, img, box, etc (transform: translate(3em, 3em);)
+***there are more in the file linked on project from
+
+CSS transition-
+-property, duration, timing -
+(transition-property: color, background-color, width;
+transition-duration: 2s;
+transition-timint-function:ease-in;)
+
+-delay property specifies when transition starts (transition-delay: value;)
+
+Animation -
+-also includes duration: (animation-duration: value;)
+
+links: 
+Transforms: http://www.w3.org/TR/css3-2d-transforms/
+Transitions: http://www.w3.org/TR/css3-transitions/
+Animations:http://www.w3.org/TR/css3-animations/
+
+
+
+
+
+
+
 WHAT TO TURN IN 
 
 summary.html
