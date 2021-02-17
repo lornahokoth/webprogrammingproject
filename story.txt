@@ -1,3 +1,7 @@
+Styling Rules-
+Background-color: alternate - 
+Font family: 
+
 Storyline: 
 Jailbreak
 Jail cell - start
@@ -8,11 +12,6 @@ hallway
   -Path 2: left(knocked out guard)-lucky
   -Path 3: straight(Priscilla)
   -Path 4: rope to climb up(Lornah)
-knocked out guard
-  -take keys()
-  -wake him up(end story)
-  
 
-Styling Rules-
-Background-color: alternate - 
-Font family: 
+
+
