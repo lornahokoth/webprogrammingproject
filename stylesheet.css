@@ -21,3 +21,19 @@ a:hover{
         font-family: arial;
         
 }
+@-webkit-keyframes swinging{
+  0%{transform: rotate(10deg);}
+  50%{transform: rotate(-5deg);}
+  100%{transform: rotate(10deg);}
+}
+@keyframes swinging{
+  0%{transform: rotate(10deg);}
+  50%{transform: rotate(-5deg);}
+  100%{transform: rotate(10deg);}
+}
+#swingrope {
+  transform-origin: 50% 0;
+  animation: swinging 3.5s ease-in-out forwards infinite; 
+  -webkit-transfrom-origin: 50% 0; 
+  -webkit-animation: swinging 3.5s ease-in-out forwards infinite;  
+}

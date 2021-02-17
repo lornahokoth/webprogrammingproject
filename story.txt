@@ -1,3 +1,5 @@
+GENERAL STORY IDEA 
+
 Styling Rules-
 Background-color: alternate - 
 Font family: 
@@ -12,6 +14,37 @@ hallway
   -Path 2: left(knocked out guard)-lucky
   -Path 3: straight(Priscilla)
   -Path 4: rope to climb up(Lornah)
+
+WHAT TO TURN IN 
+
+summary.html
+	Please submit a summary with your project in a separate linked
+	page using a presentable styled div which states the following:
+	✓ Leader’s Name
+	✓ Project Name
+	✓ Description: a one-sentence description of your project
+	✓ Team Members: a list of your team members (last and first names) and their
+	project responsibilities.
+
+UPLOAD FILES TO CODD AND GITHUB INDIVIDUALLY (everyone)	
+	****Please use the project name as the folder name
+	REQUIRED: Prior to the time of the presentations, it is strongly suggested
+  that your team copy the project files to the CODD
+	server. Create a folder and place all containing files for your project and
+	place the code on GitHub. Upload all the code work from start to finish on
+	GitHub. I may ask at any time to show me all work and dialog via account.
+	
+PRESENTATION
+Create a PowerPoint Presentation
+Create the YouTube channel and upload the video to the channel 
+Create the YouTube channel and upload the video to the channel 
+****Title Video: i.e. “Name of the task CSS Project 01_TeamName “
+
+Your team must turn in the paper as specified above and do the presentations in
+order to get credit. It will not be sufficient to simply turn in the files to icollege. Please have
+it posted on CODD sever and All Members MUST upload project to drop box. (All Members
+should post link to drop box just to ensure you get the correct reporting of your grade)
+
 
 
 
