@@ -1,33 +1,27 @@
-  
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>repl.it</title>
-    <link href="stylesheet.css" rel="stylesheet" type="text/css" />
-  <style>
-    .background {
-        background-color: #111E2F;
-      }
-      .opencell {
-        height: 483px;
-        width: 650px;
-        display: block; 
-        margin: auto; 
-        position: relative; 
-      }
-  </style>
-  </head>
-  <body class="background">
-    <img src="opencell.jpg" alt="opencell" class="opencell" />
-    <div class="choice">
-    <script src="script.js"></script>
-    <div>
-      <p> Jailbreak! Your cell door is now open, your goal is to escape out of jail.</p>
-      <p>What will you choose?</p>
-      <p><a href= "snooze.html">SLEEP</a> or will you take your chance and <a href="hallway.html">ESCAPE</a></p>
-    </div>
-    </div>
-  </body>
+
+<head>
+	<title>Jailbreak</title>
+	<link rel="stylesheet" href="gamestyle.css" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" />
+	<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@900&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+	<div class="game home">
+		<div class="title jail">JAIL</div>
+		<div class="title break">BREAK</div>
+		<a class="button play buttonanimated" href="start.html"> Play </a>
+		<a class="button rules buttonanimated" href="#popup1"> Rules </a>
+		<div id="popup1" class="overlay">
+			<div class="popup">
+				<h2>How To Play</h2>
+				<a class="close" href="#">&times;</a>
+				<div class="content">Explain rules of the game here!</div>
+			</div>
+		</div>
+	</div>
+</body>
+
 </html>
