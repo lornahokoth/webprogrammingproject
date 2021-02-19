@@ -1,0 +1,41 @@
+body {
+  font-family: "Special Elite", cursive;
+  background-color: grey;
+}
+#title {
+  font-family: "Big Shoulders Stencil Text", cursive;
+  font-size: 72pt;
+  text-align: center;
+}
+#bg {
+  padding: 25px 50px 50px 50px;
+}
+#desc {
+    text-align: center;
+    font-size: 14pt;
+}
+.textbox {
+  background-color: rgba(255, 255, 255, 0.397);
+  padding: 1% 10%;
+}
+.col {
+  flex: 1;
+  padding: 1rem;
+  margin: auto;
+}
+.row {
+  display: flex;
+  margin: auto;
+}
+.name {
+  font-weight: bold;
+  font-size: 14pt;
+}
+.header {
+  font-weight: bold;
+  text-align: center;
+  font-size: 22pt;
+}
+li {
+  padding: 5px;
+}
