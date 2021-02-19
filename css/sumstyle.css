@@ -39,3 +39,17 @@ body {
 li {
   padding: 5px;
 }
+#link:link, #link:visited {
+ 
+ 
+  padding: 10px 20px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  color: rgb(128 0 0);
+  text-decoration: none;
+}
+#link:hover{
+  color: white;
+  background-color: rgb(0 128 128);
+}
