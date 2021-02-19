@@ -153,8 +153,8 @@ body {
   background-color: rgb(64 0 0);
   border: none;
   color: white;
-  padding: 2px 0px;
-  width: 200px;
+  padding: 2px 3px;
+  min-width: 200px;
   border-radius: 60px/50px;
   text-align: center;
   text-decoration: none;
@@ -308,15 +308,15 @@ body {
   text-decoration: none;
 }
 .home {
-  background-image: url("jail.jpg");
+  background-image: url("../images/jail.jpg");
   background-size: contain;
 }
 .start {
-  background-image: url("opencell.jpg");
+  background-image: url("../images/opencell.jpg");
   background-size: cover; 
 }
 .rope1 {
-  background-image: url("rope.jpg");
+  background-image: url("../images/rope.jpg");
   background-size: cover;
   display: flex;
 }
@@ -338,24 +338,24 @@ body {
 }
 
 .hallway1 {
-  background-image: url("hallway.jpg");
+  background-image: url("../images/hallway.jpg");
   background-size: cover;
 }
 /* properties for unstable room */
 .fallthrough {
-  background-image: url("unstable.jpg");
+  background-image: url("../images/unstable.jpg");
   background-size: cover; 
   animation-name: shake; 
   animation-duration: infinite; 
 }
-/* duration for shake when hovering */
+/* duration for shake animation when hovering */
 .fallthrough:hover{
   animation: shake 10s; 
   animation-iteration-count: infinite; 
 }
 /* properties for closed cell */
 .closedcell {
-  background-image: url("closecell.jpg");
+  background-image: url("../images/closecell.jpg");
   background-size: cover; 
   }
 /* properties for dangling rope in hall */
@@ -372,7 +372,6 @@ body {
   animation-duration: 5s;
   animation-iteration-count: infinite;
 }
-
 /* properties for falling rubble */
 .rubble {
   height: 120px;
@@ -384,9 +383,6 @@ body {
   animation-name: fall; 
   animation-duration: 5s;
   animation-iteration-count: infinite; 
- 
-
-  
 }
 .rubbleend {
   height: 120px;
@@ -423,25 +419,24 @@ to{
 }
 /*properties for right */
 .darkjail{
-  background-image: url("darkfloor.jpeg");
+  background-image: url("../images/darkfloor.jpeg");
   background-size:cover;
 }
 /*properties for followrats */
 .sewer{
-  background-image:url("sewer.jpeg");
+  background-image: url("../images/sewer.jpeg");
   background-size:cover;
-  
 }
 /* properties for onexit*/
 .drain{
-  background-image:url("drain.jpeg");
+  background-image: url("../images/drain.jpeg");
   background-size:cover;
 }
 /*used for textbox with only one option */
 .center{
   position: absolute;
   left:35%;
-  bottom:45%;
+  bottom:30%;
 }
 
 
@@ -497,35 +492,34 @@ to{
   animation-duration: 2000ms;
   animation-fill-mode:forwards;
 }
-
 /*bg for securitydoor*/
 .security {
-  background-image: url("gdoor.jpg");
+  background-image: url("../images/gdoor.jpg");
   background-size: cover; 
 }
 /*bg for threedoors*/
 .threedoors{
-background-image: url("threedoors.jpg");
+background-image: url("../images/threedoors.jpg");
   background-size: cover; 
 }
 /*room1 bg of breakroom*/
 .rm1{
-background-image: url("ppl.png");
+background-image: url("../images/ppl.png");
   background-size: cover; 
 }
 /*room2 bg of surveillance room*/
 .rm2{
-background-image: url("camera.jpg");
+background-image: url("../images/camera.jpg");
   background-size: cover; 
 }
 /*riot bg of released prisoners*/
 .riot{
-background-image: url("riot.jpg");
+background-image: url("../images/riot.jpg");
   background-size: cover; 
 }
 /*exit 2 bg of empty field*/
 .ex2{
-background-image: url("field.jpg");
+background-image: url("../images/field.jpg");
   background-size: cover; 
 }
 /*raindrop propeties*/
