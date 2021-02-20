@@ -21,7 +21,6 @@ body {
 .col {
   flex: 1;
   padding: 1rem;
-  margin: auto;
 }
 .row {
   display: flex;
