@@ -1,6 +1,10 @@
-@font-face{
+@font-face {
   font-family: gameFont;
   src: url(../font/Big_Shoulders_Stencil_Text/BigShouldersStencilText-Black.ttf);
+}
+#valid {
+position: absolute;
+left: 85%;
 }
 /* background color */
 body {
@@ -46,55 +50,94 @@ body {
 /* Animate the textbox at every page opening */
 @keyframes textBoxExpand {
   from {
-    width: 0; 
+    width: 0;
     height: 0;
     bottom: 5%;
     left: 50%;
     color: rgba(255, 255, 255, 0);
-    
   }
   to {
     width: 80%;
     color: rgba(255, 255, 255, 0);
   }
 }
-
-
 /* shake animation for unstable room */
 @keyframes shake {
-  0% { transform: translate(1px, 1px) rotate(-1deg); }
-  5% { transform: translate(0px, 1.5px); }
-  10% { transform: translate(-1px, -2px); }
-  15% { transform: translate(-2px, -1px); }
-  20% { transform: translate(-3px, 0px); }
-  25% { transform: translate(0px, 1px) rotate(1deg); }
-  30% { transform: translate(3px, 2px); }
-  35% { transform: translate(2px, 1.5px); }
-  40% { transform: translate(1px, -1px); }
-  45% { transform: translate(0px, 0.5px); }
-  50% { transform: translate(-1px, 2px) rotate(-1deg); }
-  55% { transform: translate(-2px, 0.5px); }
-  60% { transform: translate(-3px, 1px); }
-  65% { transform: translate(0px, 1px); }
-  70% { transform: translate(3px, 1px); }
-  75% { transform: translate(1px, 0px) rotate(1deg); }
-  80% { transform: translate(-1px, -1px); }
-  85% { transform: translate(0px, 0.5px); }
-  90% { transform: translate(1px, 2px); }
-  95% { transform: translate(1px, 0px); }
-  100% { transform: translate(1px, -2px) rotate(-1deg); }
+  0% {
+    transform: translate(1px, 1px) rotate(-1deg);
+  }
+  5% {
+    transform: translate(0px, 1.5px);
+  }
+  10% {
+    transform: translate(-1px, -2px);
+  }
+  15% {
+    transform: translate(-2px, -1px);
+  }
+  20% {
+    transform: translate(-3px, 0px);
+  }
+  25% {
+    transform: translate(0px, 1px) rotate(1deg);
+  }
+  30% {
+    transform: translate(3px, 2px);
+  }
+  35% {
+    transform: translate(2px, 1.5px);
+  }
+  40% {
+    transform: translate(1px, -1px);
+  }
+  45% {
+    transform: translate(0px, 0.5px);
+  }
+  50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  55% {
+    transform: translate(-2px, 0.5px);
+  }
+  60% {
+    transform: translate(-3px, 1px);
+  }
+  65% {
+    transform: translate(0px, 1px);
+  }
+  70% {
+    transform: translate(3px, 1px);
+  }
+  75% {
+    transform: translate(1px, 0px) rotate(1deg);
+  }
+  80% {
+    transform: translate(-1px, -1px);
+  }
+  85% {
+    transform: translate(0px, 0.5px);
+  }
+  90% {
+    transform: translate(1px, 2px);
+  }
+  95% {
+    transform: translate(1px, 0px);
+  }
+  100% {
+    transform: translate(1px, -2px) rotate(-1deg);
+  }
 }
 /* animation making rocks fall */
 @keyframes fall {
   from {
     top: -50%;
     transition: opacity 3s ease;
-    opacity: 1; 
+    opacity: 1;
   }
   to {
     top: 85%;
     transition: opacity 7s ease;
-    opacity: 0; 
+    opacity: 0;
   }
 }
 /* animation making rocks fall all the way through */
@@ -107,19 +150,31 @@ body {
   to {
     top: 85%;
     transition: opacity 5s ease;
-    opacity: 1; 
+    opacity: 1;
   }
 }
 /* animation and transforms for dangling rope*/
 @keyframes swing {
-   0% { transform: rotate(15deg); } 
-   50% { transform: rotate(-10deg); } 
-   100% { transform: rotate(15deg); }  
+  0% {
+    transform: rotate(15deg);
+  }
+  50% {
+    transform: rotate(-10deg);
+  }
+  100% {
+    transform: rotate(15deg);
+  }
 }
 @-webkit-keyframes swing {
-  0%{webkit-transform: rotate(15deg);}
-  50%{-webkit-transform: rotate(-10deg);}
-  100%{-webkit-transform: rotate(15deg);}
+  0% {
+    webkit-transform: rotate(15deg);
+  }
+  50% {
+    -webkit-transform: rotate(-10deg);
+  }
+  100% {
+    -webkit-transform: rotate(15deg);
+  }
 }
 /* .title, .jail, .break, go to title.html.  */
 .title {
@@ -172,13 +227,8 @@ body {
   /* transform: translateY(-3px); */
   transform: scaleX(1.1) scaleY(1.1);
 }
-/* this code is inactive.
-.button:hover::after {
-  transform: scaleX(.5) scaleY(.5);
-  opacity: 0;
-} */
 .button:active {
-  transform: scaleX(.9) scaleY(.9);
+  transform: scaleX(0.9) scaleY(0.9);
 }
 /* buttonanimation slides them up and changes the values */
 .buttonanimated {
@@ -220,7 +270,6 @@ body {
   color: #333;
   font-family: Tahoma, Arial, sans-serif;
 }
-
 .popup .close {
   position: absolute;
   top: 5px;
@@ -241,7 +290,7 @@ body {
 #link {
   color: rgb(0 174 174);
 }
-#link:hover{
+#link:hover {
   color: rgb(128 0 0);
 }
 /* css code for the play button */
@@ -315,7 +364,7 @@ body {
 }
 .start {
   background-image: url("../images/opencell.jpg");
-  background-size: cover; 
+  background-size: cover;
 }
 .rope1 {
   background-image: url("../images/rope.jpg");
@@ -328,14 +377,14 @@ body {
 }
 @keyframes climb {
   0% {
-    transform: scale(1,1);
+    transform: scale(1, 1);
   }
   50% {
     transform-origin: top;
-    transform: scale(3,3);
+    transform: scale(3, 3);
   }
   100% {
-    transform: scale(1,1);
+    transform: scale(1, 1);
   }
 }
 
@@ -346,31 +395,31 @@ body {
 /* properties for unstable room */
 .fallthrough {
   background-image: url("../images/unstable.jpg");
-  background-size: cover; 
-  animation-name: shake; 
-  animation-duration: infinite; 
+  background-size: cover;
+  animation-name: shake;
+  animation-duration: infinite;
 }
 /* duration for shake animation when hovering */
-.fallthrough:hover{
-  animation: shake 10s; 
-  animation-iteration-count: infinite; 
+.fallthrough:hover {
+  animation: shake 10s;
+  animation-iteration-count: infinite;
 }
 /* properties for closed cell */
 .closedcell {
   background-image: url("../images/closecell.jpg");
-  background-size: cover; 
-  }
+  background-size: cover;
+}
 /* properties for dangling rope in hall */
 .rope {
   height: 200px;
   width: 75px;
-  display: block; 
-  margin: auto; 
-  position: relative; 
+  display: block;
+  margin: auto;
+  position: relative;
   -webkit-transform-origin: 50% 0;
   transform-origin: 50% 0;
   -webkit-animation: swing ease-in-out forwards;
-  animation: swing ease-in-out forwards; 
+  animation: swing ease-in-out forwards;
   animation-duration: 5s;
   animation-iteration-count: infinite;
 }
@@ -382,9 +431,9 @@ body {
   margin: auto;
   position: relative;
   top: 100%;
-  animation-name: fall; 
+  animation-name: fall;
   animation-duration: 5s;
-  animation-iteration-count: infinite; 
+  animation-iteration-count: infinite;
 }
 .rubbleend {
   height: 120px;
@@ -393,65 +442,61 @@ body {
   margin: auto;
   position: relative;
   top: 85%;
-  animation-name: fallend; 
+  animation-name: fallend;
   animation-duration: 5s;
-  animation-iteration-count: 1; 
+  animation-iteration-count: 1;
 }
 /*this will control moving rat*/
-.rat{
-  position:absolute;
-  animation-name:mover;
-  animation-duration:10s;
+.rat {
+  position: absolute;
+  animation-name: mover;
+  animation-duration: 10s;
   animation-iteration-count: infinite;
-  animation-timing-function:linear;
-  transition-delay:2s;
- 
+  animation-timing-function: linear;
+  transition-delay: 2s;
 }
 /*moves the rat to the right*/
-@keyframes mover{
-from{
-  right:50%;
-  opacity:0;
-}
-to{
-  right:0%;
-  opacity:1;
-}
-
+@keyframes mover {
+  from {
+    right: 50%;
+    opacity: 0;
+  }
+  to {
+    right: 0%;
+    opacity: 1;
+  }
 }
 /*properties for right */
-.darkjail{
+.darkjail {
   background-image: url("../images/darkfloor.jpeg");
-  background-size:cover;
+  background-size: cover;
 }
 /*properties for followrats */
-.sewer{
+.sewer {
   background-image: url("../images/sewer.jpeg");
-  background-size:cover;
+  background-size: cover;
 }
 /* properties for onexit*/
-.drain{
+.drain {
   background-image: url("../images/drain.jpeg");
-  background-size:cover;
+  background-size: cover;
 }
 /*used for textbox with only one option */
-.center{
+.center {
   position: absolute;
-  left:35%;
-  bottom:30%;
+  left: 35%;
+  bottom: 30%;
 }
-
-
 /*image does full rotation and expand on hover*/
 #rotate_image {
   position: absolute;
-	height: 150px;
-	width:175px;
+  height: 150px;
+  width: 175px;
   left: 70px;
   top: 100px;
-  -webkit-transition: -webkit-transform .8s ease-in-out;
-  -ms-transition: -ms-transform .8s ease-in-out;
-  transition: transform .8s ease-in-out;
+  -webkit-transition: -webkit-transform 0.8s ease-in-out;
+  -ms-transition: -ms-transform 0.8s ease-in-out;
+  transition: transform 0.8s ease-in-out;
 }
 #rotate_image:hover {
   transform: rotate(360deg) scale(2);
@@ -459,90 +504,89 @@ to{
   -webkit-transform: rotate(360deg) scale(2);
 }
 /*image fade by steadily decrease opacity*/
-@keyframes fade{
-  0%{
+@keyframes fade {
+  0% {
     opacity: 1;
     transform: rotateX(90deg);
   }
-  50%{
+  50% {
     opacity: 0.5;
     transform: rotateX(0deg);
   }
-  100%{
+  100% {
     display: none;
     opacity: 0;
     transform: rotateX(90deg);
   }
-} 
+}
 /*security guard that will fade*/
-.guard{
-	height:375px;
-	width:125px;
-	display:block;
-	margin:auto;
+.guard {
+  height: 375px;
+  width: 125px;
+  display: block;
+  margin: auto;
   animation-name: fade;
   animation-duration: 1800ms;
-  animation-fill-mode:forwards;
+  animation-fill-mode: forwards;
 }
 /*.security camera that will fade*/
-.scam{
-	height:135px;
-	width:135px;
-	display:block;
-	margin:auto;
+.scam {
+  height: 135px;
+  width: 135px;
+  display: block;
+  margin: auto;
   animation-name: fade;
   animation-duration: 2000ms;
-  animation-fill-mode:forwards;
+  animation-fill-mode: forwards;
 }
 /*bg for securitydoor*/
 .security {
   background-image: url("../images/gdoor.jpg");
-  background-size: cover; 
+  background-size: cover;
 }
 /*bg for threedoors*/
-.threedoors{
-background-image: url("../images/threedoors.jpg");
-  background-size: cover; 
+.threedoors {
+  background-image: url("../images/threedoors.jpg");
+  background-size: cover;
 }
 /*room1 bg of breakroom*/
-.rm1{
-background-image: url("../images/ppl.png");
-  background-size: cover; 
+.rm1 {
+  background-image: url("../images/ppl.png");
+  background-size: cover;
 }
 /*room2 bg of surveillance room*/
-.rm2{
-background-image: url("../images/camera.jpg");
-  background-size: cover; 
+.rm2 {
+  background-image: url("../images/camera.jpg");
+  background-size: cover;
 }
 /*riot bg of released prisoners*/
-.riot{
-background-image: url("../images/riot.jpg");
-  background-size: cover; 
+.riot {
+  background-image: url("../images/riot.jpg");
+  background-size: cover;
 }
 /*exit 2 bg of empty field*/
-.ex2{
-background-image: url("../images/field.jpg");
-  background-size: cover; 
+.ex2 {
+  background-image: url("../images/field.jpg");
+  background-size: cover;
 }
 /*raindrop propeties*/
-.raindrop{
-  animation-name:raining;
-  animation-iteration-count:infinite;
+.raindrop {
+  animation-name: raining;
+  animation-iteration-count: infinite;
   animation-timing-function: ease;
-  animation-duration:20s;
-  position:relative;
-  display:block;
- margin:auto;
-  
+  animation-duration: 20s;
+  position: relative;
+  display: block;
+  margin: auto;
 }
 /*makes it rain*/
-@keyframes raining{
-  from{
-    bottom:50%;
-    opacity:0;
+@keyframes raining {
+  from {
+    bottom: 50%;
+    opacity: 0;
   }
-  to{
-    bottom:-22%;
-    opacity:1;
+  to {
+    bottom: -22%;
+    opacity: 1;
   }
 }

@@ -1,8 +1,8 @@
-@font-face{
+@font-face {
   font-family: gameFont;
   src: url(../font/Big_Shoulders_Stencil_Text/BigShouldersStencilText-Black.ttf);
 }
-@font-face{
+@font-face {
   font-family: summaryFont;
   src: url(../font/Special_Elite/SpecialElite-Regular.ttf);
 }
@@ -19,8 +19,8 @@ body {
   padding: 25px 50px 50px 50px;
 }
 #desc {
-    text-align: center;
-    font-size: 14pt;
+  text-align: center;
+  font-size: 14pt;
 }
 .textbox {
   background-color: rgba(255, 255, 255, 0.397);
@@ -46,14 +46,19 @@ body {
 li {
   padding: 5px;
 }
-#link:link, #link:visited {
+#link:link,
+#link:visited {
   padding: 10px 20px 5px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   color: rgb(128 0 0);
 }
-#link:hover{
+#link:hover {
   color: white;
   background-color: rgb(0 128 128);
+}
+#valid {
+position: absolute;
+left: 85%;
 }
