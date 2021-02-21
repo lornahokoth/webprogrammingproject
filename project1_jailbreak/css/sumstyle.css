@@ -7,7 +7,7 @@
   src: url(../font/Special_Elite/SpecialElite-Regular.ttf);
 }
 body {
-  font-family: "Special Elite", cursive;
+  font-family: summaryFont;
   background-color: grey;
 }
 #title {
