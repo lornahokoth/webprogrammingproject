@@ -1,9 +1,17 @@
+@font-face{
+  font-family: gameFont;
+  src: url(../font/Big_Shoulders_Stencil_Text/BigShouldersStencilText-Black.ttf);
+}
+@font-face{
+  font-family: summaryFont;
+  src: url(../font/Special_Elite/SpecialElite-Regular.ttf);
+}
 body {
   font-family: "Special Elite", cursive;
   background-color: grey;
 }
 #title {
-  font-family: "Big Shoulders Stencil Text", cursive;
+  font-family: gameFont;
   font-size: 72pt;
   text-align: center;
 }

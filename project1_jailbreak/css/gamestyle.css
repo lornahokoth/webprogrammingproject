@@ -1,3 +1,7 @@
+@font-face{
+  font-family: gameFont;
+  src: url(../font/Big_Shoulders_Stencil_Text/BigShouldersStencilText-Black.ttf);
+}
 /* background color */
 body {
   background-color: white;
@@ -119,7 +123,7 @@ body {
 }
 /* .title, .jail, .break, go to title.html.  */
 .title {
-  font-family: "Big Shoulders Stencil Text", cursive;
+  font-family: gameFont;
   font-size: 72pt;
   color: white;
 }
